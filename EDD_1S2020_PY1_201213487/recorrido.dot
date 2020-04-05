@@ -1,0 +1,33 @@
+digraph Grafo{ rankdir= TB 
+subgraph cluster2 {
+ label=" RECORRIDO"; 
+node [label="Ð-7Æÿ" 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 0;
+node [label="Ð-7Æÿ" 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 1;
+node [label="Ð-7Æÿ" 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 2;
+node [label="Ð-7Æÿ" 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 3;
+node [label="Ð-7Æÿ" 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 4;
+0->1;
+1->2;
+2->3;
+3->4;
+}}

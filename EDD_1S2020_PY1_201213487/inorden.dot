@@ -1,0 +1,13 @@
+digraph G{ rankdir = LR
+node [shape=box fontsize=12 fontname="Arial"];
+subgraph cluster1 {
+label="Recorrido ABB - InOrden"; 
+node[label =" Antonio "]ABBAntonio;
+node[label =" Carlos "]ABBCarlos;
+node[label =" Eduardo "]ABBEduardo;
+node[label =" Heidy "]ABBHeidy;
+node[label =" Josue "]ABBJosue;
+node[label =" Rodrigo "]ABBRodrigo;
+node[label =" Vaniaaa "]ABBVaniaaa;
+}
+}

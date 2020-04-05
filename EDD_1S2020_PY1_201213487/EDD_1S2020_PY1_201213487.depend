@@ -1,0 +1,543 @@
+# depslib dependency file v1.0
+1585844367 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/main.cpp
+	<iostream>
+	"ListaCircularDoble.h"
+	"Cola.h"
+	"ABB.h"
+	"Menu.h"
+	"ListaSimpleOrdenada.h"
+	"ListaDoble.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	<bits/stdc++.h>
+
+1585789683 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/ListaCircularDoble.h
+	"NodoDoble.h"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1585841535 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/NodoDoble.h
+	<stdlib.h>
+	<stdio.h>
+
+1585840146 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/ABB.cpp
+	"ABB.h"
+
+1585839059 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/ABB.h
+	"NodoABB.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+
+1585786895 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/Cola.cpp
+	"Cola.h"
+
+1585789683 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/Cola.h
+	"NodoCola.h"
+	<iostream>
+	<bits/stdc++.h>
+
+1585758611 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/ListaCircularDoble.cpp
+	"ListaCircularDoble.h"
+
+1585846228 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/ListaDoble.cpp
+	"ListaDoble.h"
+
+1585844367 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/ListaDoble.h
+	"NodoDoble.h"
+	<stdlib.h>
+	<stdio.h>
+
+1585834734 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/ListaSimpleOrdenada.cpp
+	"ListaSimpleOrdenada.h"
+
+1585801129 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/ListaSimpleOrdenada.h
+	"NodoSimple.h"
+	<stdlib.h>
+	<iostream>
+
+1585841535 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/NodoDoble.cpp
+	"NodoDoble.h"
+
+1585789683 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/NodoCola.h
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1585781360 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/NodoCola.cpp
+	"NodoCola.h"
+
+1585838921 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/NodoABB.h
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	<iostream>
+
+1585838921 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/NodoABB.cpp
+	"NodoABB.h"
+
+1585805769 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/Menu.h
+	"ABB.h"
+	"Cola.h"
+	"ListaCircularDoble.h"
+	"ListaSimpleOrdenada.h"
+
+1585837895 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/Menu.cpp
+	"Menu.h"
+
+1585799062 /media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/include/NodoSimple.h
+
+1585799180 source:/media/vania/ARCHIVOS/EDD_1S2020_PY1_201213487/src/NodoSimple.cpp
+	"NodoSimple.h"
+
+1585865822 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/main.cpp
+	<iostream>
+	"ListaCircularDoble.h"
+	"Cola.h"
+	"ABB.h"
+	"Menu.h"
+	"ListaSimpleOrdenada.h"
+	"Matriz.h"
+	"ListaDoble.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	<bits/stdc++.h>
+
+1585789683 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/ListaCircularDoble.h
+	"NodoDoble.h"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1585841535 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/NodoDoble.h
+	<stdlib.h>
+	<stdio.h>
+
+1585789683 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/Cola.h
+	"NodoCola.h"
+	<iostream>
+	<bits/stdc++.h>
+
+1585789683 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/NodoCola.h
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1585856883 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/ABB.h
+	"NodoABB.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+
+1585866355 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/NodoABB.h
+	"ListaSimpleOrdenada.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	<iostream>
+	"ListaSimpleOrdenada.h"
+
+1585805769 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/Menu.h
+	"ABB.h"
+	"Cola.h"
+	"ListaCircularDoble.h"
+	"ListaSimpleOrdenada.h"
+
+1585801129 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/ListaSimpleOrdenada.h
+	"NodoSimple.h"
+	<stdlib.h>
+	<iostream>
+
+1585799062 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/NodoSimple.h
+
+1585844367 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/ListaDoble.h
+	"NodoDoble.h"
+	<stdlib.h>
+	<stdio.h>
+
+1585786895 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/Cola.cpp
+	"Cola.h"
+
+1585758611 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/ListaCircularDoble.cpp
+	"ListaCircularDoble.h"
+
+1585846228 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/ListaDoble.cpp
+	"ListaDoble.h"
+
+1585834734 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/ListaSimpleOrdenada.cpp
+	"ListaSimpleOrdenada.h"
+
+1585837895 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/Menu.cpp
+	"Menu.h"
+
+1585857102 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/NodoABB.cpp
+	"NodoABB.h"
+
+1585781360 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/NodoCola.cpp
+	"NodoCola.h"
+
+1585841535 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/NodoDoble.cpp
+	"NodoDoble.h"
+
+1585799180 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/NodoSimple.cpp
+	"NodoSimple.h"
+
+1585857440 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/ABB.cpp
+	"ABB.h"
+
+1585864330 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/Matriz.h
+	"nodo_cabecera.h"
+
+1561487192 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/nodo_cabecera.h
+	"nodo_internoMatriz.h"
+
+1585864794 /home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/include/nodo_internoMatriz.h
+	<iostream>
+
+1585867259 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/Matriz.cpp
+	"Matriz.h"
+
+1561487099 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/nodo_cabecera.cpp
+	"nodo_cabecera.h"
+
+1585864782 source:/home/josue/Escritorio/edd_Vania/EDD_1S2020_PY1_201213487/src/nodo_internoMatriz.cpp
+	"nodo_internoMatriz.h"
+
+1585956721 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/main.cpp
+	<iostream>
+	"ListaCircularDoble.h"
+	"Cola.h"
+	"ABB.h"
+	"Menu.h"
+	"ListaSimpleOrdenada.h"
+	"Matriz.h"
+	"ListaDiccionario.h"
+	"ListaDoble.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	<bits/stdc++.h>
+	"json.hpp"
+	<fstream>
+	<typeinfo>
+	<random>
+
+1585789683 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/ListaCircularDoble.h
+	"NodoDoble.h"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1585841535 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/NodoDoble.h
+	<stdlib.h>
+	<stdio.h>
+
+1585789683 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/Cola.h
+	"NodoCola.h"
+	<iostream>
+	<bits/stdc++.h>
+
+1585789683 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/NodoCola.h
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1585905535 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/ABB.h
+	"NodoABB.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	"ListaRecorrido.h"
+
+1585866355 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/NodoABB.h
+	"ListaSimpleOrdenada.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	<iostream>
+	"ListaSimpleOrdenada.h"
+
+1585801129 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/ListaSimpleOrdenada.h
+	"NodoSimple.h"
+	<stdlib.h>
+	<iostream>
+
+1585896366 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/NodoSimple.h
+
+1585805769 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/Menu.h
+	"ABB.h"
+	"Cola.h"
+	"ListaCircularDoble.h"
+	"ListaSimpleOrdenada.h"
+
+1585864330 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/Matriz.h
+	"nodo_cabecera.h"
+
+1561487192 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/nodo_cabecera.h
+	"nodo_internoMatriz.h"
+
+1585864794 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/nodo_internoMatriz.h
+	<iostream>
+
+1585844367 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/ListaDoble.h
+	"NodoDoble.h"
+	<stdlib.h>
+	<stdio.h>
+
+1585905560 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/ABB.cpp
+	"ABB.h"
+
+1585786895 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/Cola.cpp
+	"Cola.h"
+
+1585899804 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/ListaCircularDoble.cpp
+	"ListaCircularDoble.h"
+
+1585846228 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/ListaDoble.cpp
+	"ListaDoble.h"
+
+1585834734 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/ListaSimpleOrdenada.cpp
+	"ListaSimpleOrdenada.h"
+
+1585952674 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/Matriz.cpp
+	"Matriz.h"
+
+1585837895 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/Menu.cpp
+	"Menu.h"
+
+1561487099 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/nodo_cabecera.cpp
+	"nodo_cabecera.h"
+
+1585864782 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/nodo_internoMatriz.cpp
+	"nodo_internoMatriz.h"
+
+1585857102 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/NodoABB.cpp
+	"NodoABB.h"
+
+1585781360 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/NodoCola.cpp
+	"NodoCola.h"
+
+1585841535 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/NodoDoble.cpp
+	"NodoDoble.h"
+
+1585799180 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/NodoSimple.cpp
+	"NodoSimple.h"
+
+1585897050 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/ListaRecorrido.cpp
+	"ListaRecorrido.h"
+
+1585897003 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/ListaRecorrido.h
+	"NodoRecorrido.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+
+1585896423 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/NodoRecorrido.h
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+
+1585896423 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/NodoRecorrido.cpp
+	"NodoRecorrido.h"
+
+1583111522 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/json.hpp
+	<algorithm>
+	<cassert>
+	<ciso646>
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<iosfwd>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<utility>
+	<algorithm>
+	<array>
+	<ciso646>
+	<forward_list>
+	<iterator>
+	<map>
+	<string>
+	<tuple>
+	<type_traits>
+	<unordered_map>
+	<utility>
+	<valarray>
+	<exception>
+	<stdexcept>
+	<string>
+	<cstddef>
+	<utility>
+	<stdint.h>
+	<stdint.h>
+	<cstdlib>
+	<ciso646>
+	<cstddef>
+	<type_traits>
+	<ciso646>
+	<limits>
+	<type_traits>
+	<utility>
+	<iterator>
+	<type_traits>
+	<cstdint>
+	<map>
+	<memory>
+	<string>
+	<vector>
+	<array>
+	<ciso646>
+	<cstddef>
+	<cstdint>
+	<string>
+	<algorithm>
+	<ciso646>
+	<iterator>
+	<string>
+	<tuple>
+	<type_traits>
+	<utility>
+	<valarray>
+	<vector>
+	<cstddef>
+	<iterator>
+	<string>
+	<tuple>
+	<algorithm>
+	<array>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<cstring>
+	<iterator>
+	<limits>
+	<string>
+	<utility>
+	<array>
+	<cassert>
+	<cstddef>
+	<cstdio>
+	<cstring>
+	<istream>
+	<iterator>
+	<memory>
+	<numeric>
+	<string>
+	<type_traits>
+	<utility>
+	<cassert>
+	<cstddef>
+	<string>
+	<utility>
+	<vector>
+	<cstdint>
+	<utility>
+	<string>
+	<array>
+	<clocale>
+	<cstddef>
+	<cstdio>
+	<cstdlib>
+	<initializer_list>
+	<string>
+	<utility>
+	<vector>
+	<cassert>
+	<cmath>
+	<cstdint>
+	<functional>
+	<string>
+	<utility>
+	<vector>
+	<cstddef>
+	<limits>
+	<ciso646>
+	<iterator>
+	<type_traits>
+	<cstddef>
+	<iterator>
+	<utility>
+	<algorithm>
+	<cassert>
+	<cctype>
+	<numeric>
+	<string>
+	<utility>
+	<vector>
+	<initializer_list>
+	<utility>
+	<algorithm>
+	<array>
+	<cstdint>
+	<cstring>
+	<limits>
+	<string>
+	<algorithm>
+	<cstddef>
+	<ios>
+	<iterator>
+	<memory>
+	<ostream>
+	<string>
+	<vector>
+	<algorithm>
+	<array>
+	<cassert>
+	<ciso646>
+	<clocale>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<cstdio>
+	<limits>
+	<string>
+	<type_traits>
+	<utility>
+	<array>
+	<cassert>
+	<ciso646>
+	<cmath>
+	<cstdint>
+	<cstring>
+	<limits>
+	<type_traits>
+
+1585948016 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/ListaDiccionario.h
+	"NodoDiccionario.h"
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+
+1585948235 /media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/include/NodoDiccionario.h
+	<stdlib.h>
+	<string>
+	<string.h>
+	<stdio.h>
+
+1585948016 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/ListaDiccionario.cpp
+	"ListaDiccionario.h"
+
+1585947621 source:/media/vania/ARCHIVOS/2020_1/EDD_1S2020_PY1_201213487 (1)/EDD_1S2020_PY1_201213487/src/NodoDiccionario.cpp
+	"NodoDiccionario.h"
+

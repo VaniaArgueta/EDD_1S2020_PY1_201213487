@@ -1,0 +1,23 @@
+digraph Grafo{ rankdir= LR 
+subgraph cluster2 {
+ label=" Lista Doble - Fichas Jugador "; 
+node [label="A"fillcolor=azure3 style=filled  shape=rect fontcolor=black   ] 0;
+node [label="B"fillcolor=azure3 style=filled  shape=rect fontcolor=black   ] 1;
+node [label="C"fillcolor=azure3 style=filled  shape=rect fontcolor=black   ] 2;
+node [label="D"fillcolor=azure3 style=filled  shape=rect fontcolor=black   ] 3;
+node [label="E"fillcolor=azure3 style=filled  shape=rect fontcolor=black   ] 4;
+node [label="U"fillcolor=azure3 style=filled  shape=rect fontcolor=black   ] 5;
+node [label="P"fillcolor=azure3 style=filled  shape=rect fontcolor=black   ] 6;
+0->1;
+1->2;
+1->0;
+2->3;
+2->1;
+3->4;
+3->2;
+4->5;
+4->3;
+5->6;
+5->4;
+6->5;
+}}

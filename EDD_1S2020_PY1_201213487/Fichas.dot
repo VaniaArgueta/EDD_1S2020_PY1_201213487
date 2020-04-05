@@ -1,0 +1,11 @@
+digraph Grafo{ rankdir= LR 
+subgraph cluster4 {
+ fontname=Arial label=" Cola - Fichas"; 
+node [shape = box fillcolor=azure2 fontname=Arial style=filled label="W X 1"  ]0;
+node [shape = box fillcolor=azure2 fontname=Arial style=filled label="F X 4"  ]1;
+node [shape = box fillcolor=azure2 fontname=Arial style=filled label="D X 2"  ]2;
+node [shape = box fillcolor=azure2 fontname=Arial style=filled label="W X 1"  ]3;
+node [shape = box fillcolor=azure2 fontname=Arial style=filled label="A X 1"  ]4;
+node [shape = box fillcolor=azure2 fontname=Arial style=filled label="J X 8"  ]5;
+}
+}

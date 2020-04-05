@@ -1,0 +1,51 @@
+digraph Grafo{ rankdir= TB 
+subgraph cluster2 {
+ label=" Lista Simple - Scoreboard"; 
+node [label="Jugador: sdfsadfs - 10000pts " 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 0;
+node [label="Jugador: dd - 5880pts " 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 1;
+node [label="Jugador: Josue - 80pts " 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 2;
+node [label="Jugador: sdjfskjdf - 56pts " 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 3;
+node [label="Jugador: Ale - 50pts " 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 4;
+node [label="Jugador: Ricardo - 50pts " 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 5;
+node [label="Jugador: VAnia - 10pts " 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 6;
+node [label="Jugador: Ari - 5pts " 
+  fillcolor=navajowhite3 
+ style=filled 
+ shape=rect 
+ fontcolor=black   ] 7;
+0->1;
+1->2;
+2->3;
+3->4;
+4->5;
+5->6;
+6->7;
+}}

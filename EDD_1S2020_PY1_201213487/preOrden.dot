@@ -1,0 +1,30 @@
+digraph Grafo{ rankdir= TB 
+subgraph cluster1 {
+label="Recorrido PreOrden "; 
+node [label="0Ã…eü" 
+  fillcolor=seashell2 
+ style=filled 
+ shape=oval 
+ fontcolor=black ]PÃ…eü;
+node [label=" Â…eü" 
+  fillcolor=seashell2 
+ style=filled 
+ shape=oval 
+ fontcolor=black ]ÀÂ…eü;
+node [label=" Â…eü" 
+  fillcolor=seashell2 
+ style=filled 
+ shape=oval 
+ fontcolor=black ]ÀÂ…eü;
+node [label="Â…eü" 
+  fillcolor=seashell2 
+ style=filled 
+ shape=oval 
+ fontcolor=black ]0Â…eü;
+node [label="Â…eü" 
+  fillcolor=seashell2 
+ style=filled 
+ shape=oval 
+ fontcolor=black ]0Â…eü;
+}
+ } 
