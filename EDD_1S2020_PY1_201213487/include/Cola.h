@@ -20,6 +20,7 @@ class Cola
         bool verificarVacia();
         int obtenerPuntaje(char letra_);
         void graficar();
+        void vaciarCola();
 
     protected:
 

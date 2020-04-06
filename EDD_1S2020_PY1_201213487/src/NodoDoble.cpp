@@ -9,6 +9,7 @@ NodoDoble::NodoDoble(char* palabra_, int id_)
 }
 NodoDoble::NodoDoble(char ficha_){
     this->ficha = ficha_;
+
 }
 
 //Métodos get del nodo

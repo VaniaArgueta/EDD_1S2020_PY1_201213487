@@ -46,11 +46,11 @@ void ListaDoble::insertar(char ficha_)
     current->getSiguiente()->setSiguiente(NULL);
   }
 }
-void ListaDoble::mostrar(NodoDoble* primero)
+void ListaDoble::mostrar()
 {
-  NodoDoble* current = primero;
+  NodoDoble* current = this->getPrimero();
     while(current!= NULL){
-      printf("%d \n", current->ficha);
+      //printf("%d \n", current->ficha);
       printf("%c \n", current->ficha);
       current = current->getSiguiente();
     }
@@ -84,7 +84,7 @@ void ListaDoble::graficaLista(){
                 fprintf(archivoS,"%d->%d;\n",id_actual,id_siguiente);
                 if(id_anterior != -1){
                     fprintf(archivoS,"%d->%d;\n",id_actual,id_anterior);
-                }                
+                }
                 correlativo++;
                 p = p->getSiguiente();
             }
@@ -100,5 +100,67 @@ void ListaDoble::graficaLista(){
         fclose(archivoS);
         system("cd src/ " );
         system("dot -Tpng ListaDobleFichas.dot -o ListaDobleFichas.png \n xdg-open ListaDobleFichas.png" );
+
+}
+void ListaDoble::eliminarNodo(char letra){
+    /*if(this->primero != NULL){
+        NodoDoble* aux = new;
+        NodoDoble* anterior =NULL;
+        aux = this->primero;
+
+        while((aux != NULL) && (aux->ficha != letra)){
+            anterior = aux;
+            aux = aux->siguiente;
+        }
+        if(aux == NULL){
+            cout << "El elmento no existe " << letra <<endl;
+
+        }else if(anterior == NULL){
+            this->primero = this->primero->siguiente;
+            delete [] aux;
+        }else{
+            anterior->siguiente = aux->siguiente;
+            delete [] aux;
+        }
+    }*/
+    NodoDoble* nodo;
+    nodo = this->primero;
+    while((nodo != NULL) && (nodo->ficha != letra)){
+            nodo = nodo->siguiente;
+            //aux = aux->siguiente;
+        }
+        if(nodo == NULL || nodo->ficha != letra){
+          printf("El elmento no existe: %c", letra);
+          return;
+        }
+        if (nodo->anterior != NULL){
+          nodo->anterior->siguiente= nodo->siguiente;
+        }else{
+            //this->setPrimero(nodo);
+            nodo->siguiente->anterior = NULL;
+
+        }
+        if(nodo->siguiente != NULL){
+          nodo->siguiente->anterior = nodo->anterior;
+        }
+        delete [] nodo;
+}
+
+void ListaDoble::vaciarLista(){ ///No funciona
+    NodoDoble* current = this->getPrimero();
+    while(current != NULL){
+        current = this->getPrimero();
+        this->setPrimero(current->getSiguiente());
+        delete [] current;
+    }
+    this->setPrimero(NULL);
+    this->setUltimo(NULL);
+
+
+    /*NodoDoble* current = this->getPrimero();
+    while(current!= NULL){
+      //printf("%d \n", current->ficha);
+      printf("%c \n", current->ficha);
+      current = current->getSiguiente();*/
 
 }

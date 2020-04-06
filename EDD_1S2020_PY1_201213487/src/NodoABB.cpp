@@ -5,6 +5,8 @@ NodoABB::NodoABB(std::string nombre)
     this->usuario = nombre;
     this->izquierdo = NULL;
     this->derecho = NULL;
+    this->lista_fichas = new ListaDoble();
+    this->lista_score = new ListaSimpleOrdenada();
 }
 
 //metodos get del nodo avl

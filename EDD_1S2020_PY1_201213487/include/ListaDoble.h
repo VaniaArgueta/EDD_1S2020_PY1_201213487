@@ -10,7 +10,7 @@ class ListaDoble
     public:
         ListaDoble();
         void insertar(char letra);
-        void mostrar(NodoDoble* primero);
+        void mostrar();
         void graficaLista();
         //
         NodoDoble* primero;
@@ -19,6 +19,8 @@ class ListaDoble
         void setPrimero(NodoDoble* nuevo_);
         NodoDoble* getUltimo();
         void setUltimo(NodoDoble* ultimo_);
+        void eliminarNodo(char letraEliminar);
+        void vaciarLista();
 
     protected:
 

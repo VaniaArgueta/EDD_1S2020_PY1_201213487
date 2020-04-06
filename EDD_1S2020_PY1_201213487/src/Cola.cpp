@@ -120,7 +120,7 @@ int Cola::obtenerPuntaje(char letra_){
     case 'Z':
         return 10;
         break;
-    case 'W':
+    case 'W': //
         return 1;
         break;
     default:
@@ -184,4 +184,15 @@ void Cola::graficar(){
         system("dot -Tpng Fichas.dot -o Fichas.png \n xdg-open Fichas.png" );
 
 
+}
+
+void Cola::vaciarCola(){
+    NodoCola* aux;
+    while(this->getRaiz() != NULL){
+        aux = this->getRaiz();
+        this->setRaiz(aux->getSiguiente());
+        delete [] aux;
+    }
+    this->setRaiz(NULL);
+    this->setFondo(NULL);
 }

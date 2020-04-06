@@ -5,8 +5,6 @@ label="Recorrido ABB - PostOrden";
 node[label =" Antonio "]ABBAntonio;
 node[label =" Eduardo "]ABBEduardo;
 node[label =" Carlos "]ABBCarlos;
-node[label =" Josue "]ABBJosue;
-node[label =" Vaniaaa "]ABBVaniaaa;
 node[label =" Rodrigo "]ABBRodrigo;
 node[label =" Heidy "]ABBHeidy;
 }

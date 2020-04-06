@@ -1,6 +1,6 @@
 {
 
-    "dimension":35,
+    "dimension":40,
     "casillas":{
 
         "dobles":[
@@ -15,7 +15,7 @@
             },
             {
                 "x":10,
-                "y":15
+                "y":20
             }
 
         ],

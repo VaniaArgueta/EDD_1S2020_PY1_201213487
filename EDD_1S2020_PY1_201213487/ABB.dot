@@ -7,13 +7,9 @@ node[label =" Carlos "]ABBCarlos;
 node[label =" Antonio "]ABBAntonio;
 node[label =" Eduardo "]ABBEduardo;
 node[label =" Rodrigo "]ABBRodrigo;
-node[label =" Josue "]ABBJosue;
-node[label =" Vaniaaa "]ABBVaniaaa;
 ABBHeidy->ABBCarlos;
 ABBCarlos->ABBAntonio;
 ABBCarlos->ABBEduardo;
 ABBHeidy->ABBRodrigo;
-ABBRodrigo->ABBJosue;
-ABBRodrigo->ABBVaniaaa;
 }
 }

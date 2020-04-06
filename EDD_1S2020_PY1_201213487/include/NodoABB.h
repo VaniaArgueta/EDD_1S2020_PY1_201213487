@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <iostream>
 #include "ListaSimpleOrdenada.h"
+#include "ListaDoble.h"
 
 class NodoABB
 {
@@ -15,16 +16,17 @@ public:
     NodoABB * izquierdo;
     NodoABB * derecho;
     ListaSimpleOrdenada * lista_score;
+    ListaDoble * lista_fichas;
 
     NodoABB(std::string nombre);
 
-    //metodos get del nodo avl
+    //metodos get
     std::string getNombreUsuario();
     NodoABB * getIzquierdo();
     NodoABB * getDerecho();
 
 
-    //metodos set del nodo avl
+    //metodos set
     void setNombreUsuario(std::string nombre);
     void setIzquierdo(NodoABB * nuevo);
     void setDerecho(NodoABB * nuevo);
